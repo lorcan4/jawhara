@@ -1,0 +1,412 @@
+.btngt{
+    background: #000;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    width: 160px;
+    height: 50px;
+
+    }
+    .btngt:hover{    
+        background: linear-gradient(45deg, red, blue);     
+       border: 1px solid black;
+       transform: scale(1.1);
+    }
+ /* btn c1 in  the page home */
+    .circle-btn {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #f0ebeb; /* White color */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid transparent; /* Transparent border */
+        cursor: pointer;
+        transition: background-color 0.3s, border-color 0.3s; /* Transition for background color and border color */
+        border-color: red blue;  
+    }
+      .circle-btn:hover {
+       /* Red and blue border on hover */
+        box-shadow: 0px 0px 5px red; 
+      }
+      .arrow-icon {
+        color: black; /* Default color for the arrow icon */
+      }
+       /* jawhara */
+       :root {
+        --color-1: #186cb8;
+        --color-2: #2a9a9f;
+        --color-3: #f1b211;
+        --color-4: #e83611;
+        --color-5: #f9002f;
+      }
+      #kool {
+        font-family: "Exo", sans-serif;
+        font-size: 15vw;
+        font-weight: 900;
+        width: -webkit-min-content;
+        width: -moz-min-content;
+        width: min-content;
+        margin: auto;
+        text-transform: uppercase;
+        background: linear-gradient(219deg, 
+          var(--color-1) 19%, 
+          transparent 19%,transparent 20%, 
+          var(--color-2) 20%, var(--color-2)  39%,
+          transparent 39%,transparent 40%, 
+          var(--color-3) 40%,var(--color-3) 59% ,
+          transparent 59%,transparent 60%, 
+          var(--color-4) 60%, var(--color-4) 79%,
+          transparent 79%, transparent 80%, 
+          var(--color-5) 80%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+      }
+      .jawhara {
+        padding: 1.5rem;   
+        text-align: center;
+        background: radial-gradient(circle at 1.4% 1.4% ,var(--color-1) .8%,transparent  .8% ), 
+          radial-gradient(circle at 5.5% 3%,var(--color-2) .45% ,transparent .45% ), 
+          radial-gradient(circle at 2.5% 3.5%,var(--color-3) .5% ,transparent .5% ), 
+          radial-gradient(circle at 4.5% 1.2%,var(--color-4) .25%,transparent .25% ),
+      
+          radial-gradient(circle at 98% 98% ,var(--color-1) .8%,transparent  .8% ), 
+          radial-gradient(circle at 95% 95%,var(--color-2) .45% ,transparent .45% ), 
+          radial-gradient(circle at 94.5% 97.5%,var(--color-3) .5% ,transparent .5% ), 
+          radial-gradient(circle at 98.5% 95.5%,var(--color-4) .25%,transparent .25% );
+      }
+      @media screen and (min-width: 768px) {
+        .sool {
+          font-size: 3.5rem;
+        }
+        .sool1 {
+            font-size: 6.5rem;
+          }
+      }
+         /* jawhara */
+  /* btn send */
+         .cssbuttons-io-button {
+            background: #ff0000;
+            color: white;
+            font-family: inherit;
+            padding: 0.35em;
+            padding-left: 1.2em;
+            font-size: 17px;
+            font-weight: 500;
+            border-radius: 0.9em;
+            border: none;
+            letter-spacing: 0.05em;
+            display: flex;
+            align-items: center;
+            box-shadow: inset 0 0 1.6em -0.6em #714da6;
+            overflow: hidden;
+            position: relative;
+            height: 2.8em;
+            padding-right: 3.3em;
+            cursor: pointer;
+          }
+          .cssbuttons-io-button .icon {
+            background: white;
+            margin-left: 1em;
+            position: absolute;
+            display: flex;
+                  
+            height: 2.2em;
+            width: 2.2em;
+            border-radius: 0.7em;
+            box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
+            right: 0.3em;
+            transition: all 0.3s;
+          }
+          .cssbuttons-io-button:hover .icon {
+            width: calc(100% - 0.6em);
+          }         
+          .cssbuttons-io-button .icon svg {
+            width: 1.1em;
+            transition: transform 0.3s;
+            color: #7b52b9;
+          }         
+          .cssbuttons-io-button:hover .icon svg {
+            transform: translateX(0.1em);
+          }          
+          .cssbuttons-io-button:active .icon {
+            transform: scale(0.95);
+          }
+            /* btn send */
+          .btngt{
+    background: #000;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    width: 160px;
+    height: 50px;
+
+    }
+    .btngt:hover{    
+        background: linear-gradient(45deg, red, blue);     
+       border: 1px solid black;
+       transform: scale(1.1);
+    }
+ /* btn c1 in  the page home */
+    .circle-btn {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #f0ebeb; /* White color */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid transparent; /* Transparent border */
+        cursor: pointer;
+        transition: background-color 0.3s, border-color 0.3s; /* Transition for background color and border color */
+        border-color: red blue;  
+    }
+      .circle-btn:hover {
+       /* Red and blue border on hover */
+        box-shadow: 0px 0px 5px red; 
+      }
+      .arrow-icon {
+        color: black; /* Default color for the arrow icon */
+      }
+       /* jawhara */
+       :root {
+        --color-1: #186cb8;
+        --color-2: #2a9a9f;
+        --color-3: #f1b211;
+        --color-4: #e83611;
+        --color-5: #f9002f;
+      }
+      #kool {
+        font-family: "Exo", sans-serif;
+        font-size: 15vw;
+        font-weight: 900;
+        width: -webkit-min-content;
+        width: -moz-min-content;
+        width: min-content;
+        margin: auto;
+        text-transform: uppercase;
+        background: linear-gradient(219deg, 
+          var(--color-1) 19%, 
+          transparent 19%,transparent 20%, 
+          var(--color-2) 20%, var(--color-2)  39%,
+          transparent 39%,transparent 40%, 
+          var(--color-3) 40%,var(--color-3) 59% ,
+          transparent 59%,transparent 60%, 
+          var(--color-4) 60%, var(--color-4) 79%,
+          transparent 79%, transparent 80%, 
+          var(--color-5) 80%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+      }
+      .jawhara {
+        padding: 1.5rem;   
+        text-align: center;
+        background: radial-gradient(circle at 1.4% 1.4% ,var(--color-1) .8%,transparent  .8% ), 
+          radial-gradient(circle at 5.5% 3%,var(--color-2) .45% ,transparent .45% ), 
+          radial-gradient(circle at 2.5% 3.5%,var(--color-3) .5% ,transparent .5% ), 
+          radial-gradient(circle at 4.5% 1.2%,var(--color-4) .25%,transparent .25% ),
+      
+          radial-gradient(circle at 98% 98% ,var(--color-1) .8%,transparent  .8% ), 
+          radial-gradient(circle at 95% 95%,var(--color-2) .45% ,transparent .45% ), 
+          radial-gradient(circle at 94.5% 97.5%,var(--color-3) .5% ,transparent .5% ), 
+          radial-gradient(circle at 98.5% 95.5%,var(--color-4) .25%,transparent .25% );
+      }
+      @media screen and (min-width: 768px) {
+        .sool {
+          font-size: 3.5rem;
+        }
+        .sool1 {
+            font-size: 6.5rem;
+          }
+      }
+         /* jawhara */
+  /* btn send */
+         .cssbuttons-io-button {
+            background: #ff0000;
+            color: white;
+            font-family: inherit;
+            padding: 0.35em;
+            padding-left: 1.2em;
+            font-size: 17px;
+            font-weight: 500;
+            border-radius: 0.9em;
+            border: none;
+            letter-spacing: 0.05em;
+            display: flex;
+            align-items: center;
+            box-shadow: inset 0 0 1.6em -0.6em #714da6;
+            overflow: hidden;
+            position: relative;
+            height: 2.8em;
+            padding-right: 3.3em;
+            cursor: pointer;
+          }
+          .cssbuttons-io-button .icon {
+            background: white;
+            margin-left: 1em;
+            position: absolute;
+            display: flex;
+                  
+            height: 2.2em;
+            width: 2.2em;
+            border-radius: 0.7em;
+            box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
+            right: 0.3em;
+            transition: all 0.3s;
+          }
+          .cssbuttons-io-button:hover .icon {
+            width: calc(100% - 0.6em);
+          }         
+          .cssbuttons-io-button .icon svg {
+            width: 1.1em;
+            transition: transform 0.3s;
+            color: #7b52b9;
+          }         
+          .cssbuttons-io-button:hover .icon svg {
+            transform: translateX(0.1em);
+          }          
+          .cssbuttons-io-button:active .icon {
+            transform: scale(0.95);
+          }
+            /* btn send */
+          .btngt{
+    background: #000;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    width: 160px;
+    height: 50px;
+
+    }
+    .btngt:hover{    
+        background: linear-gradient(45deg, red, blue);     
+       border: 1px solid black;
+       transform: scale(1.1);
+    }
+ /* btn c1 in  the page home */
+    .circle-btn {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #f0ebeb; /* White color */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid transparent; /* Transparent border */
+        cursor: pointer;
+        transition: background-color 0.3s, border-color 0.3s; /* Transition for background color and border color */
+        border-color: red blue;  
+    }
+      .circle-btn:hover {
+       /* Red and blue border on hover */
+        box-shadow: 0px 0px 5px red; 
+      }
+      .arrow-icon {
+        color: black; /* Default color for the arrow icon */
+      }
+       /* jawhara */
+       :root {
+        --color-1: #186cb8;
+        --color-2: #2a9a9f;
+        --color-3: #f1b211;
+        --color-4: #e83611;
+        --color-5: #f9002f;
+      }
+      #kool {
+        font-family: "Exo", sans-serif;
+        font-size: 15vw;
+        font-weight: 900;
+        width: -webkit-min-content;
+        width: -moz-min-content;
+        width: min-content;
+        margin: auto;
+        text-transform: uppercase;
+        background: linear-gradient(219deg, 
+          var(--color-1) 19%, 
+          transparent 19%,transparent 20%, 
+          var(--color-2) 20%, var(--color-2)  39%,
+          transparent 39%,transparent 40%, 
+          var(--color-3) 40%,var(--color-3) 59% ,
+          transparent 59%,transparent 60%, 
+          var(--color-4) 60%, var(--color-4) 79%,
+          transparent 79%, transparent 80%, 
+          var(--color-5) 80%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+      }
+      .jawhara {
+        padding: 1.5rem;   
+        text-align: center;
+        background: radial-gradient(circle at 1.4% 1.4% ,var(--color-1) .8%,transparent  .8% ), 
+          radial-gradient(circle at 5.5% 3%,var(--color-2) .45% ,transparent .45% ), 
+          radial-gradient(circle at 2.5% 3.5%,var(--color-3) .5% ,transparent .5% ), 
+          radial-gradient(circle at 4.5% 1.2%,var(--color-4) .25%,transparent .25% ),
+      
+          radial-gradient(circle at 98% 98% ,var(--color-1) .8%,transparent  .8% ), 
+          radial-gradient(circle at 95% 95%,var(--color-2) .45% ,transparent .45% ), 
+          radial-gradient(circle at 94.5% 97.5%,var(--color-3) .5% ,transparent .5% ), 
+          radial-gradient(circle at 98.5% 95.5%,var(--color-4) .25%,transparent .25% );
+      }
+      @media screen and (min-width: 768px) {
+        .sool {
+          font-size: 3.5rem;
+        }
+        .sool1 {
+            font-size: 6.5rem;
+          }
+      }
+         /* jawhara */
+  /* btn send */
+         .cssbuttons-io-button {
+            background: #ff0000;
+            color: white;
+            font-family: inherit;
+            padding: 0.35em;
+            padding-left: 1.2em;
+            font-size: 17px;
+            font-weight: 500;
+            border-radius: 0.9em;
+            border: none;
+            letter-spacing: 0.05em;
+            display: flex;
+            align-items: center;
+            box-shadow: inset 0 0 1.6em -0.6em #714da6;
+            overflow: hidden;
+            position: relative;
+            height: 2.8em;
+            padding-right: 3.3em;
+            cursor: pointer;
+          }
+          .cssbuttons-io-button .icon {
+            background: white;
+            margin-left: 1em;
+            position: absolute;
+            display: flex;
+                  
+            height: 2.2em;
+            width: 2.2em;
+            border-radius: 0.7em;
+            box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
+            right: 0.3em;
+            transition: all 0.3s;
+          }
+          .cssbuttons-io-button:hover .icon {
+            width: calc(100% - 0.6em);
+          }         
+          .cssbuttons-io-button .icon svg {
+            width: 1.1em;
+            transition: transform 0.3s;
+            color: #7b52b9;
+          }         
+          .cssbuttons-io-button:hover .icon svg {
+            transform: translateX(0.1em);
+          }          
+          .cssbuttons-io-button:active .icon {
+            transform: scale(0.95);
+          }
+            /* btn send */
+          

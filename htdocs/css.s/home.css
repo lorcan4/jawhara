@@ -1,0 +1,159 @@
+/* footer */
+ /* Custom CSS for minor adjustments */
+ .navbar-brand img {
+    max-width: 100%;
+    height: auto;
+  }
+#navbarSupportedContent ul li{ 
+    width: 160px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  #fix:hover{ 
+    height: 50px;
+    background-color: rgb(238, 238, 244);
+    border-radius: 30px;
+  }
+  nav{border-bottom: 1px rgb(215, 212, 212) solid;}
+/* footer */
+/* home */
+.container1{text-align: center;
+height: 150px;
+}
+/* home */
+/* card */
+.card {
+    margin-bottom: 20px;
+  }
+  .card-img-overlay {
+    color: white;
+  }
+  .card-img-overlay h5 {
+    font-size: 24px;
+  }
+  .card-img-overlay p {
+    font-size: 16px;
+  }
+/* card */
+/* home 1*/
+.text-bg .card-img {
+  overflow: hidden; /* Add this line to hide the overflow */
+  transition: transform 0.5s ease-in-out;
+  animation: rotatePhoto 1s linear infinite;
+   }
+@keyframes rotatePhoto {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(10deg);
+  }
+}
+/* home 1*/
+
+/* card 2 */
+.customsoom {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin-bottom: 20px;
+  margin: 0 auto; /* Center horizontally */
+}
+/* Style for card image */
+.card-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/* Style for card content */
+.card-content {
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* Style for title */
+.card-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+/* Style for text */
+.card-text {
+  font-size: 16px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.all-card-p2 {
+border: 1px rgb(207, 204, 204) solid;
+border-radius: 10px;
+margin: 15px;
+}
+
+/* Media query for responsiveness */
+@media (min-width: 768px) {
+  .customsoom {
+    flex-direction: row;
+    width: 80%;
+  }
+  
+  #imgfis{
+    width: 50%;
+  }
+  .card-content {
+    width: 60%;
+  }
+}
+/* card 2 */
+/* for nav */
+.responsive-div {
+  width: 100%;
+  max-width: 90%; /* Adjust maximum width as needed */
+  margin: 0 auto; /* Center the div horizontally */
+  padding: 20px; /* Add padding as needed */
+  box-sizing: border-box; /* Include padding and border in the div's total width */
+  border: 1px solid #c0bdbd; /* Add border styles */
+  background-color: #FFFFFF;
+  text-align: center; /* Center the content inside the div */
+  border-radius: 20px;
+}
+#nav2:hover{transform: scale(0.9); background-color: aliceblue;}
+/* for nav */
+/* laptop */
+@media only screen and (min-width: 992px) { 
+    body {
+      font-size: 16px; 
+    }
+    #navbarSupportedContent ul li {text-align: center;}
+    #oop{
+      width: 50%;}
+      .all-card-p2 {
+        border: 1px rgb(207, 204, 204) solid;
+        border-radius: 10px;
+        margin: 40px;
+        }      
+}
+/* Tablets (landscape orientation) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+        font-size: 16px;        
+      }
+      #oop{
+        width: 50%;}
+        .all-card-p2 {
+          border: 1px rgb(207, 204, 204) solid;
+          border-radius: 10px;
+          margin: 40px;
+          
+          }  
+  }
+  /* Phones (portrait orientation) */
+  @media only screen and (max-width: 767px) {
+   body {
+      font-size: 16px; 
+    }
+  }
+  

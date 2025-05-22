@@ -1,0 +1,127 @@
+
+
+/* form style */
+
+form {
+    display: flex;
+    flex-direction: column;
+    /* max-width: 600px; */
+    padding: 1em;
+    gap: .4em;
+    font-size: larger;
+    color: gray;
+    background-color: #ffff;
+    border-radius: 10px;
+    border: solid 3px tomato;
+}
+
+textarea,
+input {
+    padding: 0.5em;
+   border: none;
+    border-bottom: solid 1px gray;
+    outline: none;
+    transition: all 300ms ease-in;
+    font-size: large;
+    -webkit-transition: all 300ms ease-in;
+    -moz-transition: all 300ms ease-in;
+    -ms-transition: all 300ms ease-in;
+    -o-transition: all 300ms ease-in;
+}
+
+input:hover {
+    border-bottom: solid 2px black;
+}
+
+textarea:hover {
+    border-bottom: solid 2px black;
+}
+
+textarea {
+    background-color: ghostwhite;
+}
+
+input[type="submit"] {
+    border-radius: 25px;
+    border: none;
+    font-size: x-large;
+    padding: 0.5em;
+    background-color: tomato;
+    color: white;
+}
+
+
+.content-txt h1 {
+    font-size: 4em;
+}
+
+.para {
+    line-height: 1.5em;
+    font-size: large;
+    font-weight: 500;
+    margin: 3em 0;
+    color: gray;
+}
+
+.phone_num,
+.location {
+    line-height: 2em;
+    font-size: x-large;
+    color: gray;
+    position: relative;
+    padding-bottom: .4em;
+    margin-bottom: .4em;
+}
+
+.phone_num::before {
+
+    content: "";
+    position: absolute;
+    right: 100%;
+
+    left: 0;
+    top: 0;
+    bottom: 0;
+    /* z-index: 1; */
+    border-bottom: solid 2px tomato;
+}
+
+.phone_num:hover::before {
+    right: 60%;
+    transition: 200ms ease-in-out;
+
+}
+
+.location::before {
+
+    content: "";
+    position: absolute;
+    right: 100%;
+
+    left: 0;
+    top: 0;
+    bottom: 0;
+    /* z-index: 1; */
+    border-bottom: solid 2px tomato;
+}
+
+.location:hover::before {
+    right: 30%;
+    transition: 200ms ease-in-out;
+
+}
+
+
+
+
+@media screen and (max-width:768px) {
+  
+    .content-txt h1 {
+        font-size: 2em;
+    }
+
+    .phone_num,
+    .location {
+        font-size: large;
+    }
+}

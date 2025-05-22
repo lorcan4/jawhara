@@ -1,0 +1,75 @@
+/* fix card 2*/
+
+.custom-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.custom-content {
+    text-align: center;
+    padding: 20px;
+}
+
+.custom-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.custom-text {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.custom-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.custom-button:hover {
+    background-color: #0056b3;
+}
+
+.custom-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+@media (min-width: 576px) {
+    .custom-container {
+        flex-direction: row;
+        align-items: center;
+        margin: 0 160px;
+    }
+
+    .custom-content {
+        flex: 1;
+        margin-right: 20px;
+        text-align: left;
+    }
+
+    .custom-image {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .custom-container {
+        flex-direction: column-reverse;
+    }
+}
+/* fix card 2*/
